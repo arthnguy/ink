@@ -1,0 +1,15 @@
+[project]
+name = "ink-lang"
+version = "0.1.0"
+description = "Ink logic programming language"
+authors = [{ name="Arthur Nguyen" }]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "hypothesis>=6.0.0"
+]
+
+[project.scripts]
+ink = "ink.cli:main"
