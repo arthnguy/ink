@@ -2,8 +2,6 @@
 
 Ink is a logic programming language built around Classical Chinese semantics.
 
----
-
 ## Overview
 
 In Ink, you write:
@@ -25,8 +23,6 @@ Ink does not include:
 
 It is a deterministic rule-based system.
 
----
-
 ## Quick Example
 
     以愛為動
@@ -41,8 +37,6 @@ It is a deterministic rule-based system.
 Result:
 
     ⊤
-
----
 
 ## Language Structure
 
@@ -154,8 +148,6 @@ Results:
 - ⊤ — true
 - ? — unknown
 
----
-
 ## Execution Model
 
 Ink maintains:
@@ -172,8 +164,6 @@ It repeatedly:
 3. Stops when no new information can be produced.
 
 Evaluation is global and deterministic.
-
----
 
 ## Future features
 
