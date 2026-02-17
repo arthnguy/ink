@@ -3,7 +3,7 @@
 Ink is a logic programming language built around Classical Chinese semantics.
 
 Install with pip:
-    pip install ink-lang
+`pip install ink-lang`
 
 ## Overview
 
